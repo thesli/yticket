@@ -1,0 +1,11 @@
+{
+    "name":"yTicketServer",
+    "author":"sliversniper",
+    "dependencies":{
+        "socket.io":"*",
+        "express":"*"
+    },
+    "scripts":{
+        "sp":"sp server.js"
+    }
+}

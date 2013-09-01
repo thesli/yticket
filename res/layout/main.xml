@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="720px"
+            android:layout_height="720px"
+            >
+
+        <FrameLayout
+                android:id="@+id/cameraframe"
+                android:layout_width="720px"
+                android:layout_height="720px"
+                ></FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first"
+            >
+
+        <ImageView
+                android:id="@id/qrimg"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                ></ImageView>
+
+        <Button
+                android:id="@id/btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/changeQR">
+        </Button>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
